@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .navbar {
+        display: flex;
+        background: #c4c7c4;
+        padding: 10px 20px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;      
+      }
+
+      h1 a{ 
+        color: black;
+        text-decoration: none;
+        width: 12rem;
+      }
+
+      .menu {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .item {
+        margin: 0 15px;
+      }
+
+      .item a {
+        text-decoration: none;
+        color: #696868;
+        font-weight: bold;
+      }
+
+      .item a:hover {
+        color: #2258c3;
+        border-bottom:2px solid black ;    
+      }
+.a{
+  display: flex;
+  justify-content: center;
+  margin: 0px 20px 20px 20x;
+}
+.a1{
+  width: 40rem;
+  margin-right: 5px;
+  padding: 70px 90px;
+  color: aliceblue;
+  background-color: #414142;
+  
+}
+.a2{
+  width: 50rem;
+  height: 400px;
+  background-image: url(./hvacimg/h14.jpeg);
+  background-size:cover ;
+  justify-content: center;
+}
+.b{
+  display: flex;
+  margin-right: 5px;
+  padding: 10px;
+  padding: 30px 30px;
+
+}
+.b1{
+  width: 30rem;
+  height: 100px;
+}
+.b2{
+  width: 40rem;
+  height: 100px;
+}
+.c{
+  display: flex;
+  gap: 90px;
+  padding: 20px;
+ justify-content: center;
+ align-items: center;
+}
+.c1{
+  padding: 20px;
+  margin: 0px 60px;  
+}
+.c1 img{
+  border: 3px solid;
+  border-radius: 50%;
+}
+.d{
+  display: flex;
+  gap: 10px ;
+  padding:30px 30px ;
+}
+.d1{
+  width: 30rem;
+}
+.e{
+  display: flex;
+  justify-content: center;
+  padding: 30px ;
+  margin-bottom: 0;
+  padding-bottom:0 ;
+}
+.e1{
+  width: 40rem;
+  height: 18rem;
+  background-image: url(./hvacimg/h17.jpeg);
+  background-attachment: fixed;
+  background-size: contain;
+
+}
+.e2{
+  width: 80rem;
+  margin-left: 10px;
+  padding-left:10rem;
+  background-color: rgb(198, 214, 214);
+ align-content: center;
+}
+.e2 button{
+  width: 110px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+footer{
+  height: 150px;
+  margin: 0px 30px 30px 30px;
+  padding:30px;
+  color: aliceblue;
+  background-color: #414142;
+  display: flex;
+}
+.f1{
+  width: 30rem;
+  padding: 0px 40px;
+}
+.f2 span{
+  display: flex ;
+  padding-bottom: 10PX;
+
+}
+.f2 span h4{
+  width: 200px;
+}
+.p{
+  padding: 10px 0px;
+}
+.f2 P a{
+
+  color: aliceblue;
+}
