@@ -1,153 +1,152 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
- .navbar {
-        display: flex;
-        background: #c4c7c4;
-        padding: 10px 20px;
-        margin: 0 auto;
-        height: 90px;
-        justify-content: space-between;
-        align-items: center;      
-      }
+.navbar {
+  display: flex;
+  background: #c4c7c4;
+  padding: 10px 20px;
+  margin: 0 auto;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
 
-      h1 a{ 
-        color: black;
-        text-decoration: none;
-        width: 12rem;
-      }
+h1 a {
+  color: black;
+  text-decoration: none;
+  width: 12rem;
+}
 
-      .menu {
-        display: flex;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-      .item {
-        margin: 0 15px;
-      }
+.item {
+  margin: 0 15px;
+}
 
-      .item a {
-        text-decoration: none;
-        color: #696868;
-        font-weight: bold;
-      }
+.item a {
+  text-decoration: none;
+  color: #696868;
+  font-weight: bold;
+}
 
-      .item a:hover {
-        color: #2258c3;
-         border-bottom:2px solid black ;
-      }
- .a{
-  margin: 0px ;
+.item a:hover {
+  color: #2258c3;
+  border-bottom: 2px solid black;
+}
+.a {
+  margin: 0px;
   display: flex;
   justify-content: center;
   height: 900px;
- }
- .a1{
+}
+.a1 {
   width: 40%;
   font-size: 1.5rem;
   padding: 100px;
   align-items: center;
- }
- .a1 h1{
+}
+.a1 h1 {
   padding-bottom: 20px;
   width: 400px;
   font-style: bold;
- }
- .a1 p{
-  padding:40px ;
+}
+.a1 p {
+  padding: 40px;
   width: 30rem;
- }
- .a1 button{
+}
+.a1 button {
   font-size: 1rem;
   width: 14rem;
   height: 50px;
   border-radius: 30px;
- }
-.a2{
+}
+.a2 {
   width: 40%;
   background-image: url(./hvacimg/h2.jpeg);
   background-size: cover;
 }
-.b{
+.b {
   margin: 20px 20px;
 }
-.b2{
+.b2 {
   display: flex;
   gap: 10px;
   padding: 20px 0px;
 }
-.b2 span{
+.b2 span {
   padding: 40px;
   background-color: #999898;
   width: 30%;
   height: 60px;
   font-size: 1rem;
 }
-.b3{
+.b3 {
   display: flex;
   gap: 10px;
 }
-.b3 span{
+.b3 span {
   padding: 40px;
   background-color: #999898;
   width: 45%;
   height: 60px;
   font-size: 1rem;
 }
-.c{
-    margin: 20px 20px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.c {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
-.c1{
-  padding: 80px 00px 00px  150px;
+.c1 {
+  padding: 80px 00px 00px 150px;
   width: 60rem;
   height: 200px;
   background-color: rgb(183, 238, 255);
   font-size: 1rem;
 }
-.c1 h6{
+.c1 h6 {
   padding-bottom: 10px;
   font-size: 20px;
 }
-.c1 button{
-  margin-left:60px ;
+.c1 button {
+  margin-left: 60px;
   margin-top: 20px;
   font-size: 1rem;
   width: 7rem;
   height: 30px;
   border-radius: 30px;
 }
-.c2{
+.c2 {
   width: 40rem;
   background-image: url(./hvacimg/h3.avif);
   background-attachment: fixed;
-  background-size: 58rem 50pc ;
-
+  background-size: 58rem 50pc;
 }
-.d{
+.d {
   margin: 20px 20px;
 }
-.d1{
+.d1 {
   display: flex;
   gap: 10px;
 }
-.d1 span{
+.d1 span {
   padding: 30px;
   width: 29.5%;
   height: 60px;
   align-items: center;
 }
-.d2{
+.d2 {
   display: flex;
   gap: 10px;
   padding: 20px 0px;
 }
-.d2 span{
+.d2 span {
   padding: 40px;
   background-color: #999898;
   width: 30%;
@@ -155,151 +154,122 @@
   font-size: 1rem;
   align-items: center;
 }
-.e{
+.e {
   border-bottom: 2px solid;
   padding: 10px 10px 30px 10px;
-  margin: 30px 40px ;
+  margin: 30px 40px;
   display: flex;
   justify-content: center;
   height: 900px;
   position: relative;
 }
-.e1{
+.e1 {
   z-index: 1;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-
+  transform: translate(-50%, -50%);
 }
-.e2{
+.e2 {
   width: 50%;
   height: 900px;
   background-image: url(./hvacimg/h5.jpeg);
-  background-size:900px;
+  background-size: 900px;
   background-attachment: fixed;
   position: absolute;
   top: 0;
   right: 0;
-  bottom:0;
+  bottom: 0;
 }
-.fe{
-  margin: 40px 0px;
-  
+.parent {
+  border: 2px solid;
+  width: auto;
+  margin: 10px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
-.fea{
-  margin: 0px 0px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  height: 700px;
-}
-.fe1{
-  width: 30%;
-}
-.fe2{
-  width:30%;
+
+.div1 {
+  height: 800px;
   background-image: url(./hvacimg/h6.jpeg);
   background-size: cover;
+  grid-area: 1 / 2 / 2 / 3;
 }
-.fe2 h1{
-  background-color: rgb(192, 236, 238);
-  width: fit-content;
-  padding: 40px;
-  font-size: 2.5rem;
-}
-.fe3{
-  width: 30%;
-  background-image: url(./hvacimg/h7.jpeg);
+.div2 {
+  height: 800px;
+   background-image: url(./hvacimg/h7.jpeg);
   background-size: cover;
+  grid-area: 1 / 3 / 2 / 4;
 }
-.fe3 h1{
-  background-color: rgb(192, 236, 238);
-  width: fit-content;
-  padding: 40px;
-  font-size: 2.5rem;
-}
-.feb{
-  margin: 10px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  height: 700px;
-}
-.fe4{
-  width:30%;
+.div3 {
+  height: 800px;
   background-image: url(./hvacimg/h8.jpeg);
   background-size: cover;
+  grid-area: 2 / 1 / 3 / 2;
 }
-.fe4 h1{
-  background-color: rgb(192, 236, 238);
-  width: fit-content;
-  padding: 40px;
-  font-size: 2.5rem;
-}
-.fe5{
-  width: 30%;
+.div4 {
+  height: 800px;
   background-image: url(./hvacimg/h9.jpeg);
   background-size: cover;
+  grid-area: 2 / 2 / 3 / 3;
 }
-.fe5 h1{
+.parent h1{
   background-color: rgb(192, 236, 238);
   width: fit-content;
   padding: 40px;
   font-size: 2.5rem;
 }
-.fe6{
-  width: 30%;
-}
-.g{
+.g {
   margin: 20px 20px;
   border-top: 2px solid;
 }
-.g1{
+.g1 {
   display: flex;
   padding: 20px 20px;
   gap: 10px;
 }
-.g1 span{
+.g1 span {
   padding: 30px;
   width: 29.5%;
   height: 60px;
   align-items: center;
 }
-.g2{
+.g2 {
   padding: 20px 20px;
   gap: 10px;
 }
-.g2 span{
+.g2 span {
   padding: 30px;
   width: 29.5%;
   height: 60px;
   align-items: center;
 }
-footer{
+footer {
   height: 150px;
   margin: 0px 30px 30px 30px;
-  padding:30px;
+  padding: 30px;
   color: aliceblue;
   background-color: #414142;
   display: flex;
 }
-.f1{
+.f1 {
   width: 30rem;
   padding: 0px 40px;
 }
-.f2 span{
-  display: flex ;
-  padding-bottom: 10PX;
-
+.f2 span {
+  display: flex;
+  padding-bottom: 10px;
 }
-.f2 span h4{
+.f2 span h4 {
   width: 200px;
 }
-.p{
+.p {
   padding: 10px 0px;
 }
-.f2 P a{
-
+.f2 P a {
   color: aliceblue;
 }
